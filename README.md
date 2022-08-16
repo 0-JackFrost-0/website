@@ -9,12 +9,13 @@ P.S.: The hover desciption of my image on the Home page is slightly slow.
 
 ---
 References:
-https://aworldofchaos.github.io/index.html
-http://www.sandipmondal.com/
-https://www.cse.iitb.ac.in/~rwitaban/
-https://aryamanmaithani.github.io/
-https://www.youtube.com/watch?v=zdA3qZNH1vc
-https://www.youtube.com/watch?v=Ge4joQG3Ggc
+https://aworldofchaos.github.io/index.html \\
+http://www.sandipmondal.com/ \\
+https://www.cse.iitb.ac.in/~rwitaban/ \\
+https://aryamanmaithani.github.io/ \\
+https://www.youtube.com/watch?v=zdA3qZNH1vc \\
+
+https://www.youtube.com/watch?v=Ge4joQG3Ggc 
 https://www.foxinfotech.in/2019/01/show-alert-message-on-click-using-javascript.html
 https://davidgoggins.com/book/
 https://www.w3schools.com/howto/howto_css_rounded_images.asp
