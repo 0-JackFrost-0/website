@@ -1,0 +1,42 @@
+table th{
+    color:aliceblue;
+    font-size: 32px;
+}
+
+table td{
+    color:antiquewhite;
+    font-size: 18px;
+    padding: 0 20px 0 20px;
+}
+
+.logos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+.desc div{
+    display: block;
+    align-items:center;
+    color: white;
+    width: 200px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.logos:hover{
+    cursor: pointer;
+}
+
+.desc:hover div{
+    width: 200px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 1; 
+}
+

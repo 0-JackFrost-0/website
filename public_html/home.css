@@ -1,0 +1,53 @@
+.wrapper .center p{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5px;
+}
+
+.wrapper .center ol li{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 5px;
+}
+
+.title{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.subtitle{
+    color:crimson;
+    text-align: center;
+}
+
+.pfp{
+    vertical-align: top;
+    border-radius: 50%;
+    width: 70%;
+    height:auto;
+}
+
+.my_pfp div{
+float: right;
+margin-right: -18%;
+margin-top: 20%;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+  }
+
+.my_pfp:hover{
+    cursor: pointer;
+}
+
+.my_pfp:hover div{
+width: 150px;
+padding: 8px 15px;
+visibility: visible;
+opacity: 0.7; 
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hobbies</title>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+        <script src="https://use.fontawesome.com/2e0c4b2524.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="hobbies.css">
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark ">
+            <div class="container-fluid">
+                        <a class="navbar-brand" href="https://www.iitb.ac.in">
+                            <img class="logo" src="iitb.png">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                            <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+                            <li class="nav-item"><a class="nav-link" href="timetable.html">Timetable</a></li>
+                            <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="center">
+            <h1>Hobbies</h1>
+            <h3>What hobbies are you interested in?</h3>
+        </div>
+        <br>
+        <form class="hobbies">
+            <input type="checkbox" id="Reading" value="Reading">
+            Reading
+            <br>
+            <input type="checkbox" id="Travelling" value="Travelling">
+            Travelling
+            <br>
+            <input type="checkbox" id="Programming" value="Programming">
+            Programming
+            <br>
+            <input type="checkbox" id="Sports" value="Sports">
+            Sports
+            <br>
+            <input type="checkbox" id="Music" value="Music">
+            Music
+            <br>
+            <input type="checkbox" id="Movies" value="Movies">
+            Movies/TV
+            <br>
+            <input type="checkbox" id="VidG" value="Video Games">
+            Video Games
+            <br>
+        </form>
+        <button class="btn" onclick="hobbyInfo()">Submit</button> <br>
+        <div class="container">
+        <label id="lbl" class="lbl"></label>
+        </div> 
+        <footer>
+            <div class="footer-content">
+                <ul class="socials">
+                    <li><a href="https://www.linkedin.com/in/om-godage-167b31233" class="hover"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://www.instagram.com/omgodage_/"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://twitter.com/omgodage"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://github.com/0-JackFrost-0"><i class="fa fa-github"></i></a></li>
+				<li><a onclick="mail()"><i class="fa fa-envelope"></i></a></li>
+				<li><a onclick="phone()"><i class="fa fa-phone"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>Om Godage . 2022</p>
+                <p>All lefts reversed <i>hehe</i>.</p>
+            </div>
+        </footer>
+        <script src="footer.js">
+            
+        </script>
+    </body>
+</html>
